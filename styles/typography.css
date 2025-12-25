@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito:wght@300;400;600;700&display=swap');
+
+:root {
+  /* Families */
+  --font-display: 'Montserrat', sans-serif;
+  --font-text: 'Nunito', sans-serif;
+
+  /* Display */
+  --display-large-size: 54px;
+  --display-large-line: 70px;
+
+  --display-medium-size: 30px;
+  --display-medium-line: 34px;
+
+  /* Text */
+  --title-size: 24px;
+  --title-line: 28px;
+
+  --subtitle-size: 20px;
+  --subtitle-line: 24px;
+
+  --body-size: 16px;
+  --body-line: 20px;
+}
+
+/* DISPLAY */
+.display-large {
+  font-family: var(--font-display);
+  font-size: var(--display-large-size);
+  line-height: var(--display-large-line);
+  font-weight: 900;
+}
+
+.display-medium {
+  font-family: var(--font-display);
+  font-size: var(--display-medium-size);
+  line-height: var(--display-medium-line);
+  font-weight: 900;
+}
+
+/* TEXT */
+.title {
+  font-family: var(--font-text);
+  font-size: var(--title-size);
+  line-height: var(--title-line);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: var(--font-text);
+  font-size: var(--subtitle-size);
+  line-height: var(--subtitle-line);
+  font-weight: 600;
+}
+
+.price-product {
+  font-family: var(--font-text);
+  font-size: var(--subtitle-size);
+  line-height: var(--subtitle-line);
+  font-weight: 600;
+}
+
+.body {
+  font-family: var(--font-text);
+  font-size: var(--body-size);
+  line-height: var(--body-line);
+  font-weight: 400;
+}
+
+.description {
+  font-family: var(--font-text);
+  font-size: var(--body-size);
+  line-height: var(--body-line);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.button-text {
+  font-family: var(--font-text);
+  font-size: var(--body-size);
+  line-height: var(--body-line);
+  font-weight: 700;
+}
